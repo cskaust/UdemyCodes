@@ -29,7 +29,7 @@ test_set = subset(dataset, split == FALSE)
 # training_set = scale(training_set)
 # test_set = scale(test_set)
 
-# Fitting Multiple Linear Regression to the Training set
+# Fitting Multiple Linear Regression to the Training Set
 regressor = lm(formula = Profit ~ .,
                data = training_set)
 
